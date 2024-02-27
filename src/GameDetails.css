@@ -1,0 +1,50 @@
+/* GameDetails.css */
+
+.game-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .game-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .game-info h2 {
+    font-size: 24px;
+  }
+  
+  .game-info img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .platforms {
+    flex: 1;
+  }
+  
+  .platforms h3 {
+    font-size: 20px;
+  }
+  
+  .platforms ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .platforms li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .platforms li span:nth-child(1) {
+    font-weight: bold;
+  }
+  
+  .platforms li span:nth-child(2) {
+    color: #007bff;
+  }
+  

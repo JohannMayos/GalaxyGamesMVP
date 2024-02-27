@@ -1,0 +1,45 @@
+/* Estilos para a barra de navegação */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navLinks {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navLink {
+    cursor: pointer;
+  }
+  
+  /* Estilos para o contêiner do carrossel */
+  .carouselContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Ajuste conforme necessário para a altura da barra de navegação */
+    background-color: #f4f4f4;
+  }
+  
+  /* Estilos para o footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
